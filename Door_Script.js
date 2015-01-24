@@ -30,7 +30,7 @@ function OnCollisionExit (other: Collision){
 		if(open && other.gameObject.tag == "Player"){
 			open = false;
 			//gameObject.SetActive(true);
-			rigidbody.position.z -=2;
+			rigidbody.position.z -=5;
 
 		}
 }
